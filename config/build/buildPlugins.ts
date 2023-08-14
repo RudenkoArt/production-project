@@ -1,8 +1,7 @@
-import path from "path";
-import HtmlWebpackPlugin from "html-webpack-plugin"
-import webpack from "webpack"
+import HtmlWebpackPlugin from "html-webpack-plugin";
+import webpack from "webpack";
 import {BuildOptions} from "./types/config";
-import MiniCssExtractPlugin from 'mini-css-extract-plugin'
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
 export function buildPlugins({paths}: BuildOptions): webpack.WebpackPluginInstance[] {
 
